@@ -6,7 +6,7 @@ public class Libro{
     public int numeroPaginas;
     public boolean disponible;
 
-    public Libro (String titulo, String autor, String isbn, String numeroPaginas) {
+    public Libro (String titulo, String autor, String isbn, int numeroPaginas) {
 
         this.titulo = titulo;
         this.autor = autor;
